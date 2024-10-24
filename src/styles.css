@@ -1,0 +1,27 @@
+/* src/style.css */
+/* @import url('https://db.onlinewebfonts.com/c/fb08f552349babdf4f2a725b2fab9abf?family=Brilliant+Cut+Pro'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Brilliant Cut Pro';
+    src: url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.eot');
+    src: url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.eot?#iefix')
+        format('embedded-opentype'),
+      url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.woff2')
+        format('woff2'),
+      url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.woff')
+        format('woff'),
+      url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.ttf')
+        format('truetype'),
+      url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.svg#Brilliant Cut Pro')
+        format('svg');
+  }
+
+  * {
+    font-family: 'Brilliant Cut Pro' !important;
+  }
+}
