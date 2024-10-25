@@ -1,0 +1,15 @@
+.card {
+  height: 500px;
+}
+
+.card:hover .card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+select:hover {
+  display: block;
+  z-index: 100;
+}

@@ -23,6 +23,9 @@ export default {
       footer: '#C10016',
       white: '#fff',
       black: '#000',
+      transparent: 'transparent',
+      grey: '#575757',
+      yellow: '#F7C457',
     },
     fontFamily: {
       // extend: {
