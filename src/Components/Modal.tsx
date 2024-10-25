@@ -13,7 +13,7 @@ import ProductImage from '../assets/img/Image.png';
 import './Modal.css';
 import ApplePay from './ApplePay';
 
-const Modal = ({ isOpen, close }) => {
+const Modal = ({ isOpen, close }: { isOpen: boolean; close: () => void }) => {
   const headingId = useId();
   const descriptionId = useId();
   const modalRef = useRef<HTMLElement>(null);

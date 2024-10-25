@@ -197,7 +197,7 @@ export default function Navbar() {
   }, [content.children]);
 
   const { close, open, isOpen } = useDisclosure();
-  const { refs, style } = useDropdown({
+  const { refs } = useDropdown({
     isOpen,
     onClose: (event: KeyboardEvent) => {
       if (event.key === 'Escape') {

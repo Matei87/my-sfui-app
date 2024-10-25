@@ -1,4 +1,4 @@
-import { SfLink, SfListItem, SfIconCreditCard } from '@storefront-ui/react';
+import { SfIconCreditCard } from '@storefront-ui/react';
 
 const contactOptions = [
   {
